@@ -25,7 +25,9 @@ To genarate the ER diagrams from a database using schemaSpy tool, follow the ste
 
 	h. The database should have foreign keys constraint, for generating E-R diagrams.
 
-	i. Establish the foreign key relationship on the basis of which only, E-R diagrams will be drawn. [For RoR apps, this task can be simplified by installing gem 'foreigner' by including it in your Gemfile. You have to also add a migraion file having all migrations. Sample is attached ].
+	i. Establish the foreign key relationship on the basis of which only, E-R diagrams will be drawn. 
+	[For RoR apps, this task can be simplified by installing gem 'foreigner' by including it in your Gemfile. 
+	You have to also add a migraion file having all migrations. Sample is attached ].
 
 	j. The details of the command and option to generate ER-diagram are given at http://schemaspy.sourceforge.net/ . Here the command run is:-
        java -jar schemaSpy_5.0.0.jar -t mysql -dp mysql-connector-java-5.1.34.jar -host localhost -db sampledb -u root -o ~/
